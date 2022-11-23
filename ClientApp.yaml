@@ -1,24 +1,2 @@
-spring:
-  jpa:
-    properties:
-      hibernate:
-        use_jdbc_metadata_defaults: 'false'
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-        jdbc:
-          lob:
-            non_contextual_creation: 'true'
-        temp: 'null'
-    hibernate:
-      ddl-auto: none
-    show-sql: 'false'
-  datasource:
-    driverClassName: org.postgresql.Driver
-    password: Admin
-    username: postgres
-    url: jdbc:postgresql://localhost:5432/ux40-ct-db
-  flyway:
-    baseline-on-migrate: 'true'
-    locations: classpath:/db/migration
-    out-of-order: 'true'
 welcome:
-  message: Welcome from git remote application test yaml
+  message: Welcome from git remote application test yaml (latest na dapat to)
