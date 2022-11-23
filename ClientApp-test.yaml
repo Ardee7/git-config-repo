@@ -11,7 +11,6 @@ spring:
     hibernate:
       ddl-auto: none
     show-sql: 'false'
-  profiles: test
   datasource:
     driverClassName: org.postgresql.Driver
     password: Admin
