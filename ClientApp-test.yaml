@@ -1,4 +1,4 @@
 spring:
   profiles: test
 welcome:
-  message: Welcome from git remote application test yaml si JM nandito
+  message: Welcome from git remote application test yaml
